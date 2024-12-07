@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns01000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns01000000001" font="Open Sans" controllayout="npnxnanbsnfns01000000001" colorscheme="pxabnsnfns01000000001" string_table="pxabnsnfns01000000001" />
-    <layout name="pxabnsnfns01000000001" font="Open Sans" controllayout="pxabnsnfns01000000001" colorscheme="pxabnsnfns01000000001" string_table="pxabnsnfns01000000001" />
-    <layout name="npxnabnsnfns01000000001" font="Open Sans" controllayout="npxnabnsnfns01000000001" colorscheme="pxabnsnfns01000000001" string_table="pxabnsnfns01000000001" />
-    <layout name="npnxnanbnsnfns01000000001" font="Open Sans" controllayout="npnxnanbnsnfns01000000001" colorscheme="pxabnsnfns01000000001" string_table="pxabnsnfns01000000001" />
-    <layout name="pxabnsnfns01000000000" font="Open Sans" controllayout="pxabnsnfns01000000000" colorscheme="pxabnsnfns01000000001" string_table="pxabnsnfns01000000001" />
+    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,16 +13,13 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="ICT.Test.L3" />
+              <option name="title_text" value="Dr. Naoumi Online Solutions" />
             </options>
           </option>
-          <option name="logo_enabled" value="true">
-            <options>
-              <option name="logo_url" value="story_content\63GcMls1rw4_DX1024_DY1024.swf" />
-              <option name="html5_logo_url" value="mobile/6RPpqQNna1H.png" />
-            </options>
+          <option name="logo_enabled" value="false">
+            <options />
           </option>
-          <option name="sidebar_enabled" value="true">
+          <option name="sidebar_enabled" value="false">
             <options>
               <option name="sidebarpos" value="left" />
               <option name="closed" value="false" />
@@ -36,9 +33,9 @@
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
           </optionlist>
-          <option name="time_enabled" value="true">
+          <option name="time_enabled" value="false">
             <options>
-              <option name="time_format" value="none" />
+              <option name="time_format" value="" />
             </options>
           </option>
           <option name="video_enabled" value="false">
@@ -46,7 +43,7 @@
               <option name="height" value="135" />
             </options>
           </option>
-          <option name="logoAltText" value="ALGERIA FLAG.png" />
+          <option name="logoAltText" />
         </options>
       </optiongroup>
       <optiongroup name="menuoptions">
@@ -83,18 +80,18 @@
       </optiongroup>
       <optiongroup name="bottombaroptions">
         <options>
-          <option name="bottombar_enabled" value="true" />
+          <option name="bottombar_enabled" value="false" />
         </options>
       </optiongroup>
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns01000000001">
+    <control_layout name="npnxnanbsnfns00000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="true" />
+      <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
@@ -112,12 +109,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns01000000001">
+    <control_layout name="pxabnsnfns00000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="true" />
+      <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
@@ -135,12 +132,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns01000000001">
+    <control_layout name="npxnabnsnfns00000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="true" />
+      <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
@@ -158,12 +155,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns01000000001">
+    <control_layout name="npnxnanbnsnfns00000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="true" />
+      <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
@@ -181,12 +178,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns01000000000">
+    <control_layout name="pxabnsnfns00000000000">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="true" />
+      <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
@@ -206,7 +203,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns01000000001">
+    <colorscheme name="npnxnanbnsnfns00000000001">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1123,7 +1120,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns01000000001">
+    <string_table name="npnxnanbnsnfns00000000001">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1289,29 +1286,9 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.627dywJB0aP" displaytext="Untitled Scene" expand="true" type="slide">
+        <slidelink slideid="_player.5VV13nLCRkW" displaytext="Dr. Naoumi" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.627dywJB0aP.6iN9eY9G2Fd" displaytext="ICT.Test.2.23.24" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.6FTMbnvwv2l" displaytext="ICT technology involve" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.5vep7VRHNID" displaytext="ICT software includes:" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.6RzUSwzl6by" displaytext="ICT technology involves:" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.5oY1YOwyQPq" displaytext="Computers can serve for:" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.5g8loJSZwpX" displaytext="What is the impact of ICT on education?" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.6rdwaan5tDc" displaytext="A desktop computer must contain:" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.6kB8tbF96eU" displaytext="Computer storage devices include:" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.688iPTAbYwu" displaytext="What do you think about the teacher’s role in the age of ICT?" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.64juQfy2CfE" displaytext="What is your view on the relationship between technology and literacy?" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.5pYxJwmeeaT" displaytext="What do you think is viable in the future of education?" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.5g8Gy7gOZXs" displaytext="What themes are more relevant for academic research?" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.659CovDo751" displaytext="What is the viable argument about technology’s effect on learners’ literacy?" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.69qfIk172ul" displaytext="How do young learners typically interact with technology?" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.5zGsxVI75C5" displaytext="What role should education play in the digital age?" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.6RK9lxDpQEq" displaytext="What concerns are risen about technology in education?" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.6l0Hi88WQvE" displaytext="What viable vision can we have for the future of education?" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.5db8JhJLEiS" displaytext="What themes are more relevant for further research?" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.6IMXWq55fLp" displaytext="Which statement is more relevant on the contrast between home and school?" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.6OdIpHbBtAk" displaytext="Blended learning means:" expand="false" type="slide" />
-            <slidelink slideid="_player.627dywJB0aP.6gVEtFuWx6a" displaytext="What is the key benefit of using VR and AR in education?" expand="false" type="slide" />
+            <slidelink slideid="_player.5VV13nLCRkW.6MmGj55vdH9" displaytext="Untitled Slide" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
